@@ -1,0 +1,130 @@
+html {
+    font-family: "Titillium Web";
+    font-size: 16px;
+    color: #543400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Navigatie */
+
+.primenav {
+    /* height: 2rem; */
+    height: 6vh;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.primenav ul {
+    /* z-index: 100; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.primenav li {
+    list-style: none;
+    padding: 10px;
+    width: 120px;
+}
+
+.primenav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #F7B500;
+    transition: 100ms ease-in 10ms;
+}
+
+.primenav a:hover {
+    color: #63BBB0;
+}
+
+/* Hero Banner */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black
+}
+
+.hero::before {
+    content: "";
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.hero .arrow img {
+    width: 100%;
+    height: auto;
+}
+
+a.arrow {
+    opacity: 0.7;
+    z-index: 5;
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+    transition: 100ms ease-in 10ms;
+}
+
+a.arrow:hover {
+    width: 120px;
+}
+
+a.arrow:active {
+    width: 100px;
+}
+
+.herotext {
+    opacity: 1;
+    z-index: 5;
+    padding: 3rem;
+    background-color: rgba(84, 52, 0, 0.4)
+}
+
+.herotext h1 {
+    font-family: "Orbitron";
+    text-align: center;
+    font-size: 5rem;
+    color: #F7B500;
+    margin: 1.5rem 0;
+    font-weight: 700;
+
+}
+
+.herotext h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #e80f3b;
+    margin: 1rem 0;
+
+}
+
+.herotext .accent {
+    color: #63BBB0;
+}
+
