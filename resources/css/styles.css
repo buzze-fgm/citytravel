@@ -7,8 +7,44 @@ html {
 body {
     margin: 0;
     padding: 0;
+    
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 
 }
+
+h1 {
+    font-family: "Orbitron";
+    text-align: center;
+    font-size: 5rem;
+    color: #F7B500;
+    margin: 1.5rem 0;
+    font-weight: 700;
+
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    color: #63BBB0;
+    margin: 1rem 0;
+}
+
+h3 {
+    /* font-weight: 600; */
+    font-size: 2rem;
+    color: #e80f3b;
+    margin: 0.7rem 0;
+    font-weight: 400;
+}
+
+
 
 /* Navigatie */
 
@@ -29,6 +65,7 @@ body {
     gap: 2rem;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .primenav li {
@@ -38,7 +75,6 @@ body {
 }
 
 .primenav a {
-    text-decoration: none;
     font-size: 1.5rem;
     line-height: 1.5rem;
     color: #F7B500;
@@ -54,7 +90,7 @@ body {
 .hero {
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: relative;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -103,28 +139,111 @@ a.arrow:active {
     opacity: 1;
     z-index: 5;
     padding: 3rem;
-    background-color: rgba(84, 52, 0, 0.4)
+    /* background-color: rgba(84, 52, 0, 0.5) */
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
-.herotext h1 {
-    font-family: "Orbitron";
-    text-align: center;
-    font-size: 5rem;
-    color: #F7B500;
-    margin: 1.5rem 0;
-    font-weight: 700;
-
-}
-
-.herotext h2 {
-    font-weight: 600;
-    font-size: 2rem;
-    color: #e80f3b;
-    margin: 1rem 0;
-
-}
 
 .herotext .accent {
     color: #63BBB0;
 }
 
+/* About */
+
+.containersmall {
+    width: 75%;
+    margin: 0 auto 50px;
+}
+
+.imgtxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.imgtxt img {
+    width: 45%;
+    flex: 1 5 auto;
+}
+
+.imgtxt .txt {
+    padding: 25px;
+    text-align: justify;
+    flex: 8 1;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.imgtxt .txt .quote {
+    position: relative;
+    left: 50px;
+    width: 80%;
+    line-height: 2rem;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: "Josefin Slab";
+    color: #e80f3b;
+}
+
+/* Products */
+
+.containerfull {
+    background-color: #543400;
+    width: 100%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+    background-size: cover;
+}
+
+a.product {
+    font-size: 2rem;
+    color: #e80f3b;
+    font-weight: 400;
+}
+
+a.product:hover {
+    color: #F7B500;
+    font-weight: 700;
+}
+
+.amsterdam {
+    background-image: url(../images/amsterdam.jpg);
+}
+
+.barcelona {
+
+    background-image: url(../images/barcelona.jpg);
+}
+
+.berlin {
+    background-image: url(../images/berlin.jpg);
+}
+
+.bruges {
+    background-image: url(../images/bruges.jpg);
+}
+
+.paris {
+    background-image: url(../images/paris.jpg);
+}
+
+.venice {
+    background-image: url(../images/venice.jpg);
+}
