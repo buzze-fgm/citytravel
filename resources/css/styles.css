@@ -55,14 +55,6 @@ h3 {
     color: #e80f3b;
 }
 
-/* @media only screen and (max-width: 550px) {
-
-    h3 {
-        font-size: 1rem;
-    }
-
-} */
-
 
 @media only screen and (max-width: 622px) {
 
@@ -190,7 +182,6 @@ a.arrow:active {
     opacity: 1;
     z-index: 5;
     padding: 3rem;
-    /* background-color: rgba(84, 52, 0, 0.5) */
     background-color: rgba(0, 0, 0, 0.5)
 }
 
@@ -390,7 +381,6 @@ a.product:hover h3{
 .infobanner {
     background-color: #513801;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     gap: 1.5625rem;
@@ -468,7 +458,6 @@ a.product:hover h3{
 .member h3 {
     color: #F7B500;
     font-weight: 600;
-    /* background-color: rgba(0, 0, 0, 0.7); */
     margin: 0;
     margin-top: 1rem;
     width: 100%;
@@ -541,7 +530,6 @@ footer p {
 }
 
 footer h2 {
-    /* margin: 0; */
     line-height: 3rem;
 }
 
