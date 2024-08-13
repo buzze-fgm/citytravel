@@ -89,6 +89,22 @@ h3 {
  
 }
 
+
+@media only screen and (max-width: 550px) {
+
+    .primenav li {
+        width: 90px;
+    }
+    
+    .primenav a {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    
+}
+
+
 /* Hero Banner */
 
 .hero {
@@ -194,6 +210,28 @@ a.arrow:active {
     font-weight: 200;
     font-family: "Josefin Slab";
     color: #e80f3b;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .imgtxt {
+        flex-direction: column;
+    }
+    
+    .imgtxt img {
+        width: 80%;
+    }
+        
+}
+
+@media only screen and (max-width: 550px) {
+
+    .imgtxt .txt .quote {
+        left: 25px;
+        width: 80%;
+    }
+    
 }
 
 /* Products Section */
