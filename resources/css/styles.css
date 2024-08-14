@@ -72,7 +72,9 @@ h3 {
 
 }
 
+/* ----------------------------------- */
 /* Navigatie */
+/* ----------------------------------- */
 
 .primenav {
     height: 6vh;
@@ -86,7 +88,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 0.1rem;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -94,8 +96,14 @@ h3 {
 
 .primenav li {
     list-style: none;
-    padding: 0.625rem;
-    width: 9.375rem;
+    /* padding: 0.625rem; */
+    /* width: 9.375rem; */
+    padding: 0 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .primenav a {
@@ -104,12 +112,11 @@ h3 {
     color: #F7B500;
     transition: all 200ms ease-in 10ms;
     padding: 0 1rem;
-    border-radius: 5px;
 }
 
-.primenav a:hover {
+.primenav li:hover {
     border-style: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(71, 48, 0, 0.5);
  
 }
 
@@ -117,7 +124,7 @@ h3 {
 @media only screen and (max-width: 622px) {
 
     .primenav li {
-        width: 5.625rem;
+        padding: 0 0.7rem;
     }
     
     .primenav a {
@@ -127,8 +134,9 @@ h3 {
     
 }
 
-
+/* ----------------------------------- */
 /* Hero Banner */
+/* ----------------------------------- */
 
 .hero {
     width: 100vw;
@@ -203,8 +211,9 @@ a.arrow:active {
 
 }
 
-
+/* ----------------------------------- */
 /* About Section */
+/* ----------------------------------- */
 
 .brand {
     color: #F7B500;
@@ -263,7 +272,9 @@ a.arrow:active {
     
 }
 
+/* ----------------------------------- */
 /* Products Section */
+/* ----------------------------------- */
 
 .containerfull {
     background-color: #473000;
@@ -337,7 +348,9 @@ a.product:hover h3{
     background-image: url(../images/venice.jpg);
 }
 
+/* ----------------------------------- */
 /* Customer reviews */
+/* ----------------------------------- */
 
 .reviews {
     display: flex;
@@ -376,7 +389,9 @@ a.product:hover h3{
     background-color: rgba(112, 82, 0, 0.05);
 }
 
+/* ----------------------------------- */
 /* Infobanner - form */
+/* ----------------------------------- */
 
 .infobanner {
     background-color: #513801;
@@ -427,7 +442,9 @@ a.product:hover h3{
     }
 }
 
+/* ----------------------------------- */
 /* Team Section */
+/* ----------------------------------- */
 
 .teamcontainer {
     width: 80%;
@@ -476,7 +493,10 @@ a.product:hover h3{
     padding: 0.625rem 0 3.125rem;
 }
 
+
+/* ----------------------------------- */
 /* Footer */
+/* ----------------------------------- */
 
 .topfooter, .portfoliofooter, .bottomfooter {
     display: flex;
@@ -555,12 +575,12 @@ footer h2 {
     position: relative;
 }
 
-.background {
+.f-bottom-back {
     background-color: #513801;
     position: relative;
 }
 
-.background::before {
+.f-bottom-back::before {
     content: "";
     background-image: url(../images/banner1.jpg);
     background-size: cover;
